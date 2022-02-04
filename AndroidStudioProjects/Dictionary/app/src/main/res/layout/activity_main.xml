@@ -1,0 +1,37 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#9C27B0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Online Dictionary App"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#CDDC39"
+        android:gravity="center"
+        />
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/actv_word"
+        android:hint="Enter few letters of word"
+        android:layout_marginTop="50dp"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Meaning"
+    android:textSize="20dp"
+    android:layout_marginTop="50dp"
+    android:id="@+id/tv_meaning"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add word"
+        android:textAllCaps="false"
+        android:onClick="addword"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
